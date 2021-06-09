@@ -1,0 +1,6 @@
+openjdk-11-jre
+ca-certificates-java
+libxrender1
+libxtst6
+libxi6
+xvfb
