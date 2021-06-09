@@ -1,5 +1,6 @@
 openjdk-11-jre
 ca-certificates-java
+libxrandr2
 libxrender1
 libxtst6
 libxi6
