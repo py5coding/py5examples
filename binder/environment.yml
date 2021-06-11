@@ -12,5 +12,5 @@ dependencies:
   - pandas
   - pip
   - voila
-#  - pip:
-#    - py5
+  - pip:
+    - py5
