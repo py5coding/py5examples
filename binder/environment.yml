@@ -11,5 +11,6 @@ dependencies:
   - noise
   - pandas
   - pip
-  - pip:
-    - py5
+  - voila
+#  - pip:
+#    - py5
