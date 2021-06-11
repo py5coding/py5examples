@@ -1,5 +1,5 @@
 #!/bin/bash
 
-pip install --index-url https://test.pypi.org/simple/ py5
+pip install --upgrade --index-url https://test.pypi.org/simple/ py5
 
 python -m py5_tools.kernel.install --sys-prefix
