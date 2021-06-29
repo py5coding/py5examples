@@ -1,9 +1,7 @@
 name: Build container image
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
 
 jobs:
   build:
@@ -16,8 +14,7 @@ jobs:
     - name: update jupyter dependencies with repo2docker
       uses: jupyterhub/repo2docker-action@master
       with: # make sure username & password/token matches your registry
-        DOCKER_USERNAME: ${{ secrets.QUAY_USERNAME }}
-        DOCKER_PASSWORD: ${{ secrets.QUAY_PASSWORD }}
+        NO_PUSH: "true"
         DOCKER_REGISTRY: "quay.io"
         IMAGE_NAME: 2i2c/peddie-image
         # Special `start` file is required at runtime, so can't put them in /home/jovyan
