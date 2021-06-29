@@ -10,6 +10,7 @@ dependencies:
   - matplotlib
   - noise
   - pandas
+  - altair
   - pip
   - pip:
     - py5
