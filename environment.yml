@@ -15,6 +15,7 @@ dependencies:
   - pandas
   - scikit-learn
   - seaborn
+  - vega_datasets
   - pip
   - pip:
     - py5
