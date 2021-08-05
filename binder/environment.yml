@@ -12,4 +12,5 @@ dependencies:
   - pandas
   - pip
   - pip:
-    - py5
+    - py5==0.5a1
+
