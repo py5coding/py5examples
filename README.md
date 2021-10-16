@@ -33,7 +33,7 @@ If you have Java 11 installed on your computer, you can install py5 using pip:
 pip install py5
 ```
 
-[Detailed installation instructions](http://py5.ixora.io/install/) are available on the documentation website. There are some [Special Notes for Mac Users](http://py5.ixora.io/tutorials/mac-users/) that you should read if you use OSX.
+[Detailed installation instructions](https://py5.ixora.io/content/install.html) are available on the documentation website. There are some [Special Notes for Mac Users](https://py5.ixora.io/content/osx_users.html) that you should read if you use OSX.
 
 There are currently four basic ways to use py5. They are:
 
