@@ -10,5 +10,5 @@ dependencies:
   - matplotlib
   - pandas
   - pip
-  # - pip:
-  #   - py5
+  - pip:
+    - py5
