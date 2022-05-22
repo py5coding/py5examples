@@ -1,4 +1,6 @@
 #!/bin/bash
 
-python -m py5_tools.kernel.install --sys-prefix
-python -m py5_tools.py5bot.install --sys-prefix
+pip install --i https://test.pypi.org/simple/ py5==0.7.3a2 py5jupyter==0.1.2a0
+
+python -m py5jupyter.kernels.py5.install --sys-prefix
+python -m py5jupyter.kernels.py5bot.install --sys-prefix
