@@ -1,17 +1,20 @@
-![py5 logo](images/logo.png)
-
 # py5 Examples
 
-![py5 PyPI Downloads](https://img.shields.io/pypi/dm/py5?label=py5%20PyPI%20downloads) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/py5coding/py5examples/HEAD?urlpath=lab)
+![py5 logo](images/logo.png)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/py5coding/py5examples/HEAD?urlpath=lab)
 
-py5 is a new version of [**Processing**][processing] for Python 3.8+. It makes the Java [**Processing**][processing] jars available to the CPython interpreter using [**JPype**][jpype]. It can do just about everything [**Processing**][processing] can do, except with Python instead of Java code.
+[![py5 downloads](https://pepy.tech/badge/py5/month)](https://pepy.tech/project/py5)
 
-The goal of py5 is to create a new version of Processing that is integrated into the Python ecosystem. Built into the library are thoughtful choices about how to best get py5 to work with other popular Python libraries such as [numpy](https://www.numpy.org/) or [Pillow](https://python-pillow.org/).
+[![Downloads](https://pepy.tech/badge/py5/week)](https://pepy.tech/project/py5)
+
+py5 is a new version of [**Processing**][processing] for Python 3.8+. It makes the Java [**Processing**][processing] jars available to the CPython interpreter using [**JPype**][jpype]. It can do just about all of the 2D and 3D drawing [**Processing**][processing] can do, except with Python instead of Java code.
+
+The goal of py5 is to create a new version of Processing that is integrated into the Python ecosystem. Built into the library are thoughtful choices about how to best get py5 to work with other popular Python libraries and tools such as [Jupyter](https://jupyter.org/), [numpy](https://www.numpy.org/), and [Pillow](https://python-pillow.org/).
 
 Here is a simple example of a working py5 Sketch, written in module mode:
 
-```
+``` python
 import py5
 
 
@@ -29,7 +32,7 @@ py5.run_sketch()
 
 If you have Java 11 installed on your computer, you can install py5 using pip:
 
-```
+``` bash
 pip install py5
 ```
 
