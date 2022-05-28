@@ -54,5 +54,5 @@ The documentation website, [https://py5.ixora.io/](https://py5.ixora.io/), is ve
 [jpype]: https://github.com/jpype-project/jpype
 
 [jupyter]: https://jupyter.org/
-[numpy]: https://www.numpy.org/
+[numpy]: https://numpy.org/
 [pillow]: https://python-pillow.org/
