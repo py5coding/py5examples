@@ -36,7 +36,7 @@ If you have Java 11 installed on your computer, you can install py5 using pip:
 pip install py5
 ```
 
-[Detailed installation instructions](https://py5.ixora.io/content/install.html) are available on the documentation website. There are some [Special Notes for Mac Users](https://py5.ixora.io/content/osx_users.html) that you should read if you use OSX.
+[Detailed installation instructions](https://py5coding.org/content/install.html) are available on the documentation website. There are some [Special Notes for Mac Users](https://py5coding.org/content/osx_users.html) that you should read if you use OSX.
 
 There are currently four basic ways to use py5. They are:
 
@@ -47,7 +47,7 @@ There are currently four basic ways to use py5. They are:
 
 py5generator is a meta-programming project that creates the py5 library. To view the actual installed py5 library code, look at the [py5 repository][py5_repo]. All py5 library development is done through py5generator.
 
-The documentation website, [https://py5.ixora.io/](https://py5.ixora.io/), is very much a work in progress. The reference documentation is solid but the how-to's and tutorials need a lot of work.
+The documentation website, [https://py5coding.org/](https://py5coding.org/), is very much a work in progress. The reference documentation is solid but the how-to's and tutorials need a lot of work.
 
 [py5_repo]: https://github.com/py5coding/py5
 [processing]: https://github.com/processing/processing4
